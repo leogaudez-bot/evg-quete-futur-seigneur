@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "@railway/cli": "latest",
+    "better-sqlite3": "latest",
+    "cors": "latest",
+    "express": "latest"
+  },
+  "devDependencies": {}
+}
